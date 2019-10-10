@@ -56,8 +56,10 @@ wss://www.missimx.com/websocket
           {key:hiskline_$symbol_$type_$timestamp_start, ts:$timestamp} 
           
           parameter description: 
-          $symbol: trading pair         $type: time unit(1min, 5min, 15min, 30min, 60min, 1day, 1mon, 1week, 1year)
-          $timestamp_start: the start timestamp, in general, the timestamp of the earliest K-line time, returning 100 entries of data from the start timestamp (excluding start_timestamp) to an earlier time.         $timestamp: timestamp 
+          $symbol: trading pair         
+	  $type: time unit(1min, 5min, 15min, 30min, 60min, 1day, 1mon, 1week, 1year)
+          $timestamp_start: the start timestamp, in general, the timestamp of the earliest K-line time, returning 100 entries of data from the start timestamp (excluding start_timestamp) to an earlier time.         
+	  $timestamp: timestamp 
           
           data description: 
           return 100 entries after a successful request          {
@@ -108,7 +110,8 @@ wss://www.missimx.com/websocket
           subscription:  
           {key:trades_$symbol_$size, ts:$timestamp} 
           $symbol: trading pair
-          $size: number of data, value 1, 10, 20, 50          $timestamp: timestamp 
+          $size: number of data, value 1, 10, 20, 50          
+	  $timestamp: timestamp 
           
           data description: 
           {
