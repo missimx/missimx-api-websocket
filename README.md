@@ -95,7 +95,7 @@ wss://www.missimx.com/websocket
               "symbol":trading pair,
               "timestamp":timestamp 
             },
-            "key":"depth_btcfcny_0"
+            "key":"depth_btcusdt_0"
           }
           
           cancel: 
@@ -115,7 +115,7 @@ wss://www.missimx.com/websocket
             "data":{
               "msg":"success",
               "status":1,
-              "symbol":"btcfcny",
+              "symbol":"btcusdt",
               "timestamp":1535452091509,
               "trades":[
                 {
