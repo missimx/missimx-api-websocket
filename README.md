@@ -1,4 +1,4 @@
-# MissImx Websocket API Example
+# MissImx Websocket API
 
 ## Notes
 
